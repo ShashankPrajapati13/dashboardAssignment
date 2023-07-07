@@ -1,0 +1,139 @@
+#dashboard{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(234, 234, 234);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#left{
+    height: 94vh;
+    width: 20vw;
+    background-color: black;
+    position: relative;
+    display: flex;
+    align-items: last baseline;
+    justify-content: space-between;
+    flex-direction: column;
+    font-family: gilroy;
+    font-weight: 600;
+    border-radius: 10px;
+    
+    padding: 1vw 3vw;
+}
+#left h1{
+    font-size: 3vw;
+    color: white;
+}
+#left #lsection{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    height: 40vh;
+    width: 100%;
+    flex-direction: column;
+}
+#left #lsection a{
+    font-size: 3vh;
+    text-decoration: none;
+    color: white;
+}
+#left #lbot a{
+    font-size: 2vh;
+    text-decoration: none;
+    font-family: gilroy;
+    font-weight: 600;
+    color: white;
+}
+#left #lbot{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    height: 10vh;
+    width: 100%;
+    flex-direction: column;
+}
+#right{
+    /* background-color: blanchedalmond; */
+    width: 70vw;
+    height: 90vh;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+#right #nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#right #rtop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#right #rtop div{
+    background-color: rgb(215, 235, 235);
+    height: 12vh;
+    width: 12vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+#right #rtop div h2{
+    font-weight: 400;
+    font-size: 1.9vw;
+}
+#right #rtop div h4{
+    font-weight: 500;
+}
+#rmid{
+    height: 35vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-radius: 20px;
+    padding-left: 2vw;
+}
+#rbot{
+    height: 32vh;
+    width: 100%;
+    /* background-color: bisque; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#rbot #rbotl , #rbot #rbotr{
+    width: 33.5vw;
+    height:30vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    flex-direction: column;
+    border-radius: 20px;
+    padding-left: 2vw;
+}
+
+#rbot #rbotr #m , #rbot #rbotr #b{
+    display: flex;
+    align-self: flex-start;
+}
+#rbot #rbotr #m #c, #rbot #rbotr #b #c{
+    margin-left: 1vw;
+}
+#line{
+    height: 10vh;
+    width: .3svw;
+    background-color: rgb(133, 186, 168);
+}
+#gl{
+    position: absolute;
+    top: 0;
+    right: 0;
+    scale: .6;
+}
